@@ -39,7 +39,7 @@ spec:
         - containerPort: 25565
         - containerPort: 25575
         imagePullPolicy: Always
-      volumeMounts:
+        volumeMounts:
         - name: azure
           mountPath: /data
       volumes:
